@@ -1,0 +1,10 @@
+ Le volume dans le lecteur C n'a pas de nom.
+ Le num‚ro de s‚rie du volume est 14B4-AF94
+
+ R‚pertoire de C:\Ibra\Dev\Git\GitAngGithub_RaghavPAL\MyProject
+
+27/04/2018  22:01    <DIR>          .
+27/04/2018  22:01    <DIR>          ..
+27/04/2018  22:01                 0 test1.txt
+               1 fichier(s)                0 octets
+               2 R‚p(s)  269ÿ227ÿ134ÿ976 octets libres
