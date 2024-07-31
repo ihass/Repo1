@@ -1,89 +1,74 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram id="l2aKFoh6-Bn0gOPZ2l0T" name="Page-1">
-    <mxGraphModel dx="2370" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mpq5AgpwV83IM184FDqD-13" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7316.svg;html=1;labelBackgroundColor=#ffffff;rackUnitSize=16.7;resizable=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="170" width="178" height="347" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-1" value="" style="whiteSpace=wrap;html=1;strokeColor=#7F00FF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="500" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-14" value="" style="opacity=0;container=1;collapsible=0;childLayout=rack;rackUnitSize=16.7;allowGaps=1;marginLeft=0;marginRight=0;marginTop=0;marginBottom=0;textColor=#666666;numDisp=off;resizable=0;movable=0;" vertex="1" parent="mpq5AgpwV83IM184FDqD-13">
-          <mxGeometry x="8" y="10" width="162" height="133.6" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-2" value="&lt;span style=&quot;font-family: Aptos, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Serveur applicatif consolidé de recette (&lt;/span&gt;&lt;span style=&quot;font-family: Aptos, sans-serif; font-size: 16px; text-align: start;&quot;&gt;&lt;font color=&quot;#7f00ff&quot;&gt;DXC&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Aptos, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;) : 10.250.249.21&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="360" width="305" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-18" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7050QX-32.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-14">
-          <mxGeometry width="162" height="16.7" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="EtyFFYK8GC0LLriPXOJL-3" target="EtyFFYK8GC0LLriPXOJL-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-19" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7050SX-128.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-14">
-          <mxGeometry y="16.7" width="162" height="33.4" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-3" value="tomcat&lt;br&gt;digilab&lt;br&gt;backend&lt;br&gt;springBoot" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#7F00FF;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="100" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-20" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7250QX-64.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-14">
-          <mxGeometry y="50.099999999999994" width="162" height="33.4" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EtyFFYK8GC0LLriPXOJL-4" target="EtyFFYK8GC0LLriPXOJL-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-21" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7280SE-64.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-14">
-          <mxGeometry y="83.5" width="162" height="16.7" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-4" value="Répertoire de dépôt (OUT)&lt;br&gt;/home/digilab/backend/flux/out/[codeFlux]/" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#7F00FF;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-22" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7280SE-68.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-14">
-          <mxGeometry y="100.19999999999999" width="162" height="16.7" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="EtyFFYK8GC0LLriPXOJL-6" target="EtyFFYK8GC0LLriPXOJL-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-15" value="" style="opacity=0;container=1;collapsible=0;childLayout=rack;rackUnitSize=16.7;allowGaps=1;marginLeft=0;marginRight=0;marginTop=0;marginBottom=0;textColor=#666666;numDisp=off;resizable=0;movable=0;" vertex="1" parent="mpq5AgpwV83IM184FDqD-13">
-          <mxGeometry x="8" y="164" width="162" height="133.6" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-6" value="Répertoire de réception&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;(IN)&lt;/span&gt;&lt;div&gt;/home/digilab/backend/flux/in/[codeFlux]/&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#7F00FF;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-25" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7050S-52.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-15">
-          <mxGeometry width="162" height="16.7" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-7" value="&lt;b&gt;CFT&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="625" y="130" width="50" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-26" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7050S-52.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-15">
-          <mxGeometry y="16.7" width="162" height="16.7" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-8" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="760" y="80" width="320" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-27" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7500E-12CQ-LC.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-15">
-          <mxGeometry y="33.4" width="162" height="16.7" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-9" value="&lt;span style=&quot;font-family: Aptos, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Serveur de recette de Bank Al-Maghrib (&lt;/span&gt;&lt;span style=&quot;font-family: Aptos, sans-serif; font-size: 16px; text-align: start;&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;BKAM&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Aptos, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="767.5" y="360" width="305" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-28" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7500E-12CM-LC.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-15">
-          <mxGeometry y="50.099999999999994" width="162" height="16.7" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-10" value="BASFIM" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#FF8000;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="990" y="230" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-16" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7308.svg;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;container=1;collapsible=0;childLayout=rack;rackUnitSize=16.7;allowGaps=1;marginLeft=8;marginRight=8;marginTop=27;marginBottom=22;textColor=#666666;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="320" y="304" width="178" height="214.58" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EtyFFYK8GC0LLriPXOJL-11" target="EtyFFYK8GC0LLriPXOJL-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-30" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7050Q-16.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-16">
-          <mxGeometry x="8" y="27" width="162" height="16.7" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-11" value="Gatway" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="190" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-32" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7050Q-16.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-16">
-          <mxGeometry x="8" y="60.4" width="162" height="16.7" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="EtyFFYK8GC0LLriPXOJL-12" target="EtyFFYK8GC0LLriPXOJL-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-31" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7050Q-16.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-16">
-          <mxGeometry x="8" y="43.7" width="162" height="16.7" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-12" value="Gatway" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="780" y="190" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-33" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7010T-48.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-16">
-          <mxGeometry x="8" y="77.1" width="162" height="16.7" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-13" value="Applicatif" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#7F00FF;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="890" y="130" width="60" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-35" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7050TX-128.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-16">
-          <mxGeometry x="8" y="110.5" width="162" height="33.4" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EtyFFYK8GC0LLriPXOJL-11" target="EtyFFYK8GC0LLriPXOJL-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-34" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7010T-48.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-16">
-          <mxGeometry x="8" y="93.8" width="162" height="16.7" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.267;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EtyFFYK8GC0LLriPXOJL-13" target="EtyFFYK8GC0LLriPXOJL-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-36" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7150S-24.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-16">
-          <mxGeometry x="8" y="143.89999999999998" width="162" height="16.7" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.145;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;entryX=0.063;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EtyFFYK8GC0LLriPXOJL-7" target="EtyFFYK8GC0LLriPXOJL-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-17" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7304.svg;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;container=1;collapsible=0;childLayout=rack;rackUnitSize=16.7;allowGaps=1;marginLeft=8;marginRight=8;marginTop=27;marginBottom=22;textColor=#666666;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="560" y="387" width="178" height="131.79" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.855;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" source="EtyFFYK8GC0LLriPXOJL-12" target="EtyFFYK8GC0LLriPXOJL-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-37" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7500E-12CM-LC.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-17">
-          <mxGeometry x="8" y="27" width="162" height="16.7" as="geometry" />
-        </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-38" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7500E-12CQ-LC.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-17">
-          <mxGeometry x="8" y="43.7" width="162" height="16.7" as="geometry" />
-        </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-39" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7500E-6C2-LC.svg;aspect=fixed;" vertex="1" parent="mpq5AgpwV83IM184FDqD-17">
-          <mxGeometry x="8" y="60.4" width="162" height="16.7" as="geometry" />
-        </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-40" value="Arista rack equipment layout" style="text;html=1;resizable=1;points=[];autosize=0;align=left;verticalAlign=top;spacingTop=-4;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="580" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-41" value="Location:" style="text;html=1;resizable=1;points=[];autosize=0;align=left;verticalAlign=middle;spacingTop=-4;fontSize=14;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="580" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mpq5AgpwV83IM184FDqD-42" value="Investor:" style="text;html=1;resizable=1;points=[];autosize=0;align=left;verticalAlign=middle;spacingTop=-4;fontSize=14;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="40" y="110" width="580" height="30" as="geometry" />
+        <mxCell id="EtyFFYK8GC0LLriPXOJL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;entryX=0.763;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EtyFFYK8GC0LLriPXOJL-7" target="EtyFFYK8GC0LLriPXOJL-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
